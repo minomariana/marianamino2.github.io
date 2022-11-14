@@ -1,0 +1,51 @@
+/*soymarian*/
+@import 
+url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+.navbar {
+    position: fixed;
+}
+img {
+    margin: 1em 0 0 1em;
+    width: 200px;
+}
+#content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("paisaje.jpeg") no-repeat center center;
+    background-size: cover;
+}
+h1, h3 {
+    margin: 0px;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    color: #06323D;
+}
+h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    color: #FFF;
+}
+.btn{
+    border-radius: 5px;
+    padding: 2px;
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #C87780;
+    color: #06323D;
+    border-color: #FF938E;
+    font-weight: bolder;
+    font-size: 12px; 
+}
+/*soymarian*/
